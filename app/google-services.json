@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1090494466741",
+    "project_id": "scorer-bfd23",
+    "storage_bucket": "scorer-bfd23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090494466741:android:cca00e15f988680a9f8cfc",
+        "android_client_info": {
+          "package_name": "com.madesh.scorer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090494466741-5pfbnjeje3vq2b36fsevi5a12thtui2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgFATsefWF1L3cwZT79mQZo_bICNRb2xA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090494466741-5pfbnjeje3vq2b36fsevi5a12thtui2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

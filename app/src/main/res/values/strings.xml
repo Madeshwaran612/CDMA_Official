@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Scorer</string>
+
+
+    <string-array name="age_cat_boys">
+        <item>Age Category</item>
+        <item>A18</item>
+        <item>U18</item>
+        <item>U14</item>
+        <item>U12</item>
+        <item>Open</item>
+    </string-array>
+
+    <string-array name="hanging_age">
+        <item>Age Category</item>
+        <item>U18</item>
+        <item>A18</item>
+        <item>Open</item>
+    </string-array>
+
+    <string-array name="mallakhamb_type">
+        <item>Mallakhamb Type</item>
+        <item>Pole Mallakhamb</item>
+        <item>Rope Mallakhamb</item>
+        <item>Hanging Mallakhamb</item>
+    </string-array>
+
+    <string-array name="age_cat_girls">
+        <item>Age Category</item>
+        <item>A18</item>
+        <item>A16</item>
+        <item>U18</item>
+        <item>U16</item>
+        <item>U14</item>
+        <item>U12</item>
+        <item>Open</item>
+    </string-array>
+    <string name="title_activity_timer">Timer</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+</resources>

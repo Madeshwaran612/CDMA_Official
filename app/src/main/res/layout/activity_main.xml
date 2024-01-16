@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:onClick="intend"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:id="@+id/chiefJudge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Chief Judge"/>
+    <Button
+        android:onClick="intend"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:id="@+id/Judge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Judge 1"/>
+    <Button
+        android:onClick="intend"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:id="@+id/Judge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Judge 2"/>
+    <Button
+        android:onClick="intend"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:id="@+id/Judge3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Judge 3"/>
+    <Button
+        android:onClick="intend"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:id="@+id/Judge4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Judge 4"/>
+    <Button
+        android:onClick="intend"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Timer"/>
+
+
+</LinearLayout>

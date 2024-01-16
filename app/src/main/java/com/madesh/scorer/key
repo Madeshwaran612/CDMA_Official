@@ -1,0 +1,22 @@
+
+
+ pole mallakhamb
+
+        bd,fp, by, bn, fy,fn(1-6)
+
+
+
+ hanging mallakhamb
+
+        bd,fp, byh, bnh, fyh, fnh(1-6)
+
+
+
+ rope mallakhamb
+
+        bdr,fpr, byr,bnr,fyr,fnr(1-6)
+
+
+collectionReference = fStore.collection(compName.getText().toString().trim().toUpperCase())
+                            .document(typeSpin.getSelectedItem().toString()).collection(teamName.getText().toString().toUpperCase().trim())
+                    .document(RoomCode.getText().toString().toUpperCase().trim()).collection(ageSpin.getSelectedItem().toString());
