@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId "com.madesh.scorer"
         minSdkVersion 26
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
@@ -23,16 +23,21 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
-    packagingOptions{
-        exclude 'com/itextpdf/io/font/cmap_info.txt'
-        exclude 'com/itextpdf/io/font/cmap/*'
+    packagingOptions {
+        jniLibs {
+            excludes += ['com/itextpdf/io/font/cmap/*']
+        }
+        resources {
+            excludes += ['com/itextpdf/io/font/cmap_info.txt', 'com/itextpdf/io/font/cmap/*']
+        }
     }
+
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.madesh.scorer'
 }
 
 dependencies {
